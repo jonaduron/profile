@@ -16,9 +16,6 @@
             <h4 class="card-title h4 pb-2"><strong>Professional profile</strong></h4>
             <div class="view overlay my-4">
               <img src="../assets/cover.jpg" class="img-fluid" alt="">
-              <a href="#">
-                <div class="mask"></div>
-              </a>
             </div>
             <h5 class="indigo-text h5 mb-4">Me</h5>
             <p class="card-text">I am a Mexican guy who is really interested in technologies, who is always looking for improvement and for getting better as a person and as a professional. I have my mind full of dreams, which I try to come true with day by day work.</p>

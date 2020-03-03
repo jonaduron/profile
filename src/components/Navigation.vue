@@ -12,7 +12,10 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="nav navbar-nav mx-auto">
                         <li class="nav-item active">
-                            <b-link class="nav-link" to="/home">Home</b-link>
+                            <b-link class="nav-link" to="/home">Home</b-link>  
+                        </li>
+                        <li class="nav-item">
+                            <b-link class="nav-link" to="/about_me">Profile</b-link>
                         </li>
                         <li class="nav-item">
                             <b-link class="nav-link" to="/cv">Resumé</b-link>
@@ -22,9 +25,6 @@
                         </li>
                         <li class="nav-item">
                             <b-link class="nav-link" to="/blog">Blog</b-link>
-                        </li>
-                        <li class="nav-item">
-                            <b-link class="nav-link" to="/about_me">About me</b-link>
                         </li>
                         <li class="nav-item">
                             <b-link class="nav-link" to="/contact">Contact</b-link>

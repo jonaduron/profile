@@ -12,7 +12,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="nav navbar-nav mx-auto">
                         <li class="nav-item active">
-                            <b-link class="nav-link" to="/home">Home</b-link>  
+                            <b-link class="nav-link" to="/">Home</b-link>  
                         </li>
                         <li class="nav-item">
                             <b-link class="nav-link" to="/about_me">Profile</b-link>

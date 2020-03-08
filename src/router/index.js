@@ -1,10 +1,11 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import CV from '../views/CV.vue'
-import AboutMe from '../views/AboutMe.vue'
+import Resume from '../views/Resume.vue'
+import Profile from '../views/Profile.vue'
 import Contact from '../views/Contact.vue'
 import Portfolio from '../views/Portfolio.vue'
+import Blog from '../views/Blog.vue'
 
 Vue.use(VueRouter)
 
@@ -25,14 +26,19 @@ const routes = [
     component: Portfolio
   },
   {
-    path: '/cv',
-    name: 'CV',
-    component: CV
+    path: '/resume',
+    name: 'Resume',
+    component: Resume
   },
   {
-    path: 'about_me',
-    name: 'aboutMe',
-    component: AboutMe
+    path: '/profile',
+    name: 'Profile',
+    component: Profile
+  },
+  {
+    path: '/blog',
+    name: 'Blog',
+    component: Blog
   }
 ]
 

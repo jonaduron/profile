@@ -1,5 +1,5 @@
 <template>
-    <div class="portfolio">
+    <div class="blog">
         <div class="introduction w-100 d-block">
             <Navigation></Navigation>      
             <div class="carousel-caption d-none d-md-block">
@@ -19,7 +19,7 @@ import Navigation from '../components/Navigation'
 import Footer from '../components/Footer'
 
 export default {
-  name: 'Resume',
+  name: 'Blog',
   components: {
       Navigation,
       Footer

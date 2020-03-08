@@ -1,9 +1,11 @@
 <template>
     <div class="contact">
         <div class="introduction w-100 d-block">
-            <Navigation></Navigation>  
+            <Navigation></Navigation>      
             <div class="carousel-caption d-none d-md-block">
-        </div>
+                <h1>Jonathan Durón</h1>
+                <h3>Welcome to my personal website folks</h3>
+            </div>
         </div>
         <div class="text-white">
         <div class="container">
@@ -54,16 +56,19 @@
             </section>
         </div>
         </div>
+        <Footer></Footer>
     </div>    
 </template>
 
 <script>
 import Navigation from '../components/Navigation'
+import Footer from '../components/Footer'
 
 export default {
   name: 'Contact',
   components: {
-      Navigation
+      Navigation,
+      Footer
   },
   props: {
     

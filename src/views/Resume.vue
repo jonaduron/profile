@@ -1,5 +1,5 @@
 <template>
-    <div class="portfolio">
+    <div class="resume">
         <div class="introduction w-100 d-block">
             <Navigation></Navigation>      
             <div class="carousel-caption d-none d-md-block">

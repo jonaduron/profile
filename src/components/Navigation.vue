@@ -11,14 +11,14 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="nav navbar-nav mx-auto">
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <b-link class="nav-link" to="/">Home</b-link>  
                         </li>
                         <li class="nav-item">
-                            <b-link class="nav-link" to="/about_me">Profile</b-link>
+                            <b-link class="nav-link" to="/profile">Profile</b-link>
                         </li>
                         <li class="nav-item">
-                            <b-link class="nav-link" to="/cv">Resumé</b-link>
+                            <b-link class="nav-link" to="/resume">Resumé</b-link>
                         </li>
                         <li class="nav-item">
                             <b-link class="nav-link" to="/portfolio">Portfolio</b-link>
@@ -43,6 +43,21 @@ export default {
   name: 'Navigation',
   components: {
     
+  },
+  data() {
+      return {
+          isActive: false
+      }
+  },
+  methods: { 
+        setActive() {
+            Vue.set(this.$data, 'isActive', true)
+        }
+  },
+  computed: {
+        activeClass: function(){
+                    return this.$data.isActive ? 'active' : '';
+                 }
   }
 }
 </script>

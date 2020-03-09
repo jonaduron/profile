@@ -26,7 +26,7 @@
           <h1 class="my-4">A more detailed explanation</h1>
           <div class="">
             <div class="p-2">
-              
+              <img src="../assets/profile2.jpg">
             </div>
             <div class="p-2">
               <p>I am 21 years old and I’m currently studying web development in France. 
@@ -39,23 +39,25 @@
                 I can say I am ready to start working and to turn great ideas into reality.</p>
             </div>
           </div>
-          <div class="w-100">
+          <div class="m-4 p-4">
             <h1>About me</h1>
-            <div class="w-50">
-              <div>
-                <p>I have a lot of passions, as traveling, dancing and many other things, you can follow me on my facebook or instagram to know me better.</p> 
+            <div class="d-flex p-2 justify-content-around w-100">
+              <div class="p-2 w-50">
+              <div class="m-4">
+               <img src="../assets/profile3.jpg" width="400" height="560">
               </div>
-            </div>
-            <div class="w-50">
-              <vue-instagram token="youraccessTokenHere" username="UsernameHere" :count="3">
-                <template slot="feeds" scope="props">
-                    <li class="instagram-media fancy-list"> {{ props.feed.link }} </li>
-                    <img :src=" props.feed.images.standard_resolution.url " alt="">
-                </template>
-                <template slot="error" scope="props">
-                    <div class="fancy-alert"> {{ props.error.error_message }} </div>
-                </template>
-              </vue-instagram>
+              </div>
+              <div class="p-2 w-50 m-4">
+                <h4 class="m-4 p-4">Random facts about me:</h4>
+                  <p><br><br>I used to play soccer and baseball
+                    <br>I am a really sports fan
+                    <br>I use to dance and sing when I am happy or at whatever time of the day
+                    <br>I would love to learn to play piano
+                    <br>I love fast food
+                    <br>I am 21 years old
+                    <br>I am the oldest of my brothers
+                  </p> 
+              </div>
             </div>
           </div>
         </div>

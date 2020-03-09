@@ -12,7 +12,7 @@
           <div class="jumbotron bg-transparent text-center">
             <h2 class="card-title h2">Professional profile</h2>
             <div class="view overlay my-4">
-              <img src="../assets/cover.jpg" class="img-fluid" alt="">
+              <img src="../assets/pro.jpg" class="img-fluid" width="320" height="480" alt="">
             </div>
             <p class="blue-text my-4 font-weight-bold">Know about my studies and career</p>
             <div class="row d-flex justify-content-center">
@@ -31,7 +31,7 @@
         <h1 class="card-title">Resumé</h1>
         <div class="two-columns p-2 d-flex justify-content-around">
           <div class="p-2 w-50" style="margin-top: 0px;">
-            <img src="../assets/prof.jpg" width="300" height="430">
+            <img src="../assets/cover.jpg" width="300" height="430">
           </div>
           <div class="p-2 w-50">
             <div class="jumbotron bg-transparent text-white">
@@ -197,7 +197,7 @@ export default {
 </script>
 <style scoped>
 .introduction {
-  background-image: url('https://businessfirstfamily.com/wp-content/uploads/2016/03/online-coding-classes-example.jpg');
+  background-image: url('../assets/programming.jpg');
   min-height: 630px;
   background-position: center;
   background-repeat: no-repeat;
